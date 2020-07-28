@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/quac/QuaC/src",
+                "/quac/slepc/include",
+                "/quac/slepc/linux-gnu-c-complex-int64-sprng/include",
+                "/quac/petsc/include",
+                "/quac/petsc/linux-gnu-c-complex-int64-sprng/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
