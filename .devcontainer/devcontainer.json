@@ -1,0 +1,4 @@
+{
+    "image": "lyonfnal/quac-debug:diagonalize",
+    "extensions": ["ms-vscode.cpptools"]
+}

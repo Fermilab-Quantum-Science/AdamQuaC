@@ -7,8 +7,10 @@
                 "/quac/QuaC/src",
                 "/quac/slepc/include",
                 "/quac/slepc/linux-gnu-c-complex-int64-sprng/include",
+                "/quac/slepc/linux-gnu-c-complex-int64-sprng-debug/include",
                 "/quac/petsc/include",
-                "/quac/petsc/linux-gnu-c-complex-int64-sprng/include"
+                "/quac/petsc/linux-gnu-c-complex-int64-sprng/include",
+                "/quac/petsc/linux-gnu-c-complex-int64-sprng-debug/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

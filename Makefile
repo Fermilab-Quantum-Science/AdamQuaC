@@ -1,4 +1,4 @@
-CFLAGS = -Wuninitialized -g
+CFLAGS = -Wuninitialized -g -Og
 
 
 ODIR=/quac/QuaC/obj
@@ -39,6 +39,9 @@ simple_circuit: obj/simple_circuit.o $(OBJ)
 	${CLINKER} -o $@ $^ $(CFLAGS) ${PETSC_KSP_LIB} ${SLEPC_EPS_LIB}
 
 UChicagoCavity: obj/UChicagoCavity.o $(OBJ)
+	${CLINKER} -o $@ $^ $(CFLAGS) ${PETSC_KSP_LIB} ${SLEPC_EPS_LIB}
+
+quantum_noise: obj/quantum_noise.o $(OBJ)
 	${CLINKER} -o $@ $^ $(CFLAGS) ${PETSC_KSP_LIB} ${SLEPC_EPS_LIB}
 
 .PHONY: clean
